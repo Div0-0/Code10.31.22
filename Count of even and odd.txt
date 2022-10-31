@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int a[10],i,ce=0,co=0;
+    printf("Enter numbers to fill an array;");
+    for(i=0;i<10;i++)
+    {
+        scanf("%d",&a[i]);
+        if(a[i]%2==0)
+        {
+            ce++;
+        }
+        else
+        {
+            co++;
+        }
+    }
+    printf("The number of even integers:%d",ce);
+    printf("The number of odd integers:%d",co);
+    
+}
